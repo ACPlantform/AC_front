@@ -1,4 +1,3 @@
-<!--对应左侧导航栏中的支持作者;(可直接删除)-->
 <template>
     <div>
         <div class="crumbs">

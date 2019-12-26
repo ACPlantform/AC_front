@@ -1,4 +1,4 @@
- <template>
+<template>
     <section class="main">
         <div class="crumbs">
             <el-breadcrumb separator="/">

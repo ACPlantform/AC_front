@@ -9,11 +9,8 @@
             </el-breadcrumb>
         </div>
         <div class="container">
-            <!--//基于element-ui自带的表单校验-->
-            <div class="form-box"><!--//数据录入时校验form validate-->
+            <div class="form-box">
                 <el-form ref="form" :model="form" label-width="80px">
-                    <!--标签必须使用这个进行包裹表单框... 校验才会有效
-                    ，其属性 ：prop 只有标识了这个才会进入校验-->
                     <el-form-item label="表单名称">
                         <el-input v-model="form.name"></el-input>
                     </el-form-item>
@@ -148,7 +145,7 @@ export default {
     },
     methods: {
         onSubmit() {
-            this.$message.success('提交成功！');//vue消息提示this.$message方法
+            this.$message.success('提交成功！');
         }
     }
 };

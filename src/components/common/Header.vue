@@ -6,8 +6,6 @@
             <i v-else class="el-icon-s-unfold"></i>
         </div>
         <div class="logo">后台管理系统</div>
-        <button id="toggle-search" class="header-button"></button>
-
         <div class="header-right">
             <div class="header-user-con">
                 <!-- 全屏显示 -->
@@ -78,7 +76,6 @@ export default {
         // 侧边栏折叠
         collapseChage() {
             this.collapse = !this.collapse;
-            //在 Header 组件中点击按钮时触发 collapse 事件
             bus.$emit('collapse', this.collapse);
         },
         // 全屏事件

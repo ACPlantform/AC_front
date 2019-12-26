@@ -1,4 +1,3 @@
-//对应做左侧导航栏中Schart图表的实现文件
 <template>
     <div>
         <div class="crumbs">

@@ -22,7 +22,6 @@
 </template>
 
 <script>
-    //export default 用法大多用在单页面应用内，基于一系列脚手架
 export default {
     data(){
         return {

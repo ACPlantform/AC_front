@@ -15,7 +15,7 @@
 export default {
   methods: {
       goBack(){
-          this.$router.go(-1);//返回上一级或者返回首页;
+          this.$router.go(-1);
       }
   }
 }
