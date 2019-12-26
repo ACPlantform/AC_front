@@ -74,7 +74,6 @@
                 };
                 reader.readAsDataURL(file);
             },
-            //使用cropper.js裁剪图片
             cropImage () {
                 this.cropImg = this.$refs.cropper.getCroppedCanvas().toDataURL();
             },

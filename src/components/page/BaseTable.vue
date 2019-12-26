@@ -1,12 +1,9 @@
-//BaseTable.vue对应左侧导航栏中的基础表格
-//一般页面内容上方都会有一个路径导航，这个导航就是面包屑导航el-breadcrumb
 <template>
     <div>
         <div class="crumbs">
-
             <el-breadcrumb separator="/">
                 <el-breadcrumb-item>
-                    <i class="el-icon-lx-cascades"></i>数据查询
+                    <i class="el-icon-lx-cascades"></i> 基础表格
                 </el-breadcrumb-item>
             </el-breadcrumb>
         </div>
@@ -18,7 +15,6 @@
                     class="handle-del mr10"
                     @click="delAllSelection"
                 >批量删除</el-button>
-                <!--选择地址-->
                 <el-select v-model="query.address" placeholder="地址" class="handle-select mr10">
                     <el-option key="1" label="广东省" value="广东省"></el-option>
                     <el-option key="2" label="湖南省" value="湖南省"></el-option>
@@ -34,7 +30,6 @@
                 header-cell-class-name="table-header"
                 @selection-change="handleSelectionChange"
             >
-                <!--表头数据-->
                 <el-table-column type="selection" width="55" align="center"></el-table-column>
                 <el-table-column prop="id" label="ID" width="55" align="center"></el-table-column>
                 <el-table-column prop="name" label="用户名"></el-table-column>

@@ -48,7 +48,6 @@
 </template>
 
 <script>
-    //页面引入
     import draggable from 'vuedraggable'
     export default {
         name: 'draglist',
@@ -107,10 +106,9 @@
         components:{
             draggable
         },
-        //methods就是VUE中函数的定义处
         methods: {
             removeHandle(event){
-                console.log(event);//查看当前触发函数的内容
+                console.log(event);
                 this.$message.success(`从 ${event.from.id} 移动到 ${event.to.id} `);
             }
         }

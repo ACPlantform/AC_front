@@ -15,7 +15,7 @@
 export default {
   methods: {
       goBack(){
-          this.$router.go(-1);//返回之前的页面
+          this.$router.go(-1);
       }
   }
 }

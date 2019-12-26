@@ -1,4 +1,3 @@
-//vue中实现后台管理标签页
 <template>
     <div class="tags" v-if="showTags">
         <ul>
